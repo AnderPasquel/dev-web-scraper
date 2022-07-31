@@ -1,0 +1,25 @@
+{
+  "name": "dev-web-scraper",
+  "version": "1.0.0",
+  "description": "web scraper",
+  "main": "server.js",
+  "scripts": {
+    "test": "start",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnderPasquel/dev-web-scraper.git"
+  },
+  "author": "Ander Pasquel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnderPasquel/dev-web-scraper/issues"
+  },
+  "homepage": "https://github.com/AnderPasquel/dev-web-scraper#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "node-cron": "^3.0.1",
+    "uuid": "^8.3.2"
+  }
+}
